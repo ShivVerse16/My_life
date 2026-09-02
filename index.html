@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A Special Question For You ❤️</title>
+  <title>A Special Question For Mahak ❤️</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
@@ -25,10 +25,10 @@
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(255, 255, 255, 0.96);
       padding: 35px 25px;
       border-radius: 25px;
-      box-shadow: 0 15px 35px rgba(255, 75, 110, 0.2);
+      box-shadow: 0 15px 35px rgba(255, 75, 110, 0.22);
       max-width: 400px;
       width: 100%;
       text-align: center;
@@ -51,10 +51,10 @@
     }
 
     p {
-      color: #666;
+      color: #555;
       font-size: 15px;
       margin-bottom: 25px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .btn-group {
@@ -110,10 +110,10 @@
   <!-- 1. HOME SCREEN -->
   <div id="screen-home" class="card">
     <span class="emoji">💌</span>
-    <h2>Hey, ek baat bolni thi...</h2>
-    <p>Will you be mine forever? Kya tum meri girlfriend banogi? ❤️</p>
+    <h2>Hey Mahak... ❤️</h2>
+    <p>Kaafi waqt se dil me ek baat thi jo sirf tumse kehni thi. Will you be mine forever? Kya tum meri girlfriend banogi? 🙈</p>
     <div class="btn-group">
-      <button class="btn-yes" onclick="startYesFlow()">Yes! 🥰</button>
+      <button class="btn-yes" onclick="startYesFlow()">Yes, Of Course! 🥰</button>
       <button class="btn-no" onclick="goToScreen('screen-no-1')">No 🙈</button>
     </div>
   </div>
@@ -121,10 +121,10 @@
   <!-- NO SCREEN 1 -->
   <div id="screen-no-1" class="card hidden">
     <span class="emoji">🥺</span>
-    <h2>Arre itni jaldi 'No'?</h2>
-    <p>Ek baar phir se socho na please! Aise bina soche reject mat karo... 👉👈</p>
+    <h2>Aise kaise 'No' Mahak?</h2>
+    <p>Itni jaldi faisla mat lo na... Ek baar fir se socho please! Main itna bhi bura nahi hu 👉👈</p>
     <div class="btn-group">
-      <button class="btn-yes" onclick="backToHome()">Chalo theek hai (Yes)</button>
+      <button class="btn-yes" onclick="backToHome()">Chalo maan gayi (Yes) ❤️</button>
       <button class="btn-no" onclick="goToScreen('screen-no-2')">Nahi bola na!</button>
     </div>
   </div>
@@ -132,10 +132,10 @@
   <!-- NO SCREEN 2 -->
   <div id="screen-no-2" class="card hidden">
     <span class="emoji">☕</span>
-    <h2>Pakka na? Offer sun lo pehle!</h2>
-    <p>Unlimited pizza, late night conversations, aur life-long loyalty guarantee hai! Abhi bhi No?</p>
+    <h2>Pakka na Mahak? Offer sun lo!</h2>
+    <p>Unlimited pizza, late-night baatein, tumhare saare nakhre uthana aur meri 100% loyalty guarantee hai! Abhi bhi No?</p>
     <div class="btn-group">
-      <button class="btn-yes" onclick="backToHome()">Haan kar deti hu ❤️</button>
+      <button class="btn-yes" onclick="backToHome()">Acha theek hai (Yes) 🥰</button>
       <button class="btn-no" onclick="goToScreen('screen-no-3')">Fir bhi No!</button>
     </div>
   </div>
@@ -143,10 +143,10 @@
   <!-- NO SCREEN 3 -->
   <div id="screen-no-3" class="card hidden">
     <span class="emoji">💔</span>
-    <h2>Last mauka de raha hu...</h2>
-    <p>Sach me dil todogi mera? Ek aakhri baar soch lo... 😢</p>
+    <h2>Last mauka de raha hu Mahak...</h2>
+    <p>Sach me mera dil todogi? Ek aakhri baar dil se soch lo na... 😢</p>
     <div class="btn-group">
-      <button class="btn-yes" onclick="backToHome()">Acha maan gayi! 🥰</button>
+      <button class="btn-yes" onclick="backToHome()">Haan baba Yes! 🥰</button>
       <button class="btn-no" onclick="showSadEnding()">Pakka No.</button>
     </div>
   </div>
@@ -154,25 +154,25 @@
   <!-- NO SCREEN 4 (SAD ENDING) -->
   <div id="screen-no-final" class="card hidden">
     <span class="emoji">🥺💔</span>
-    <h2>It's okay...</h2>
-    <p>Tumhara decision sar aankhon par. But remember, meri dosti aur respect hamesha tumhare saath rahegi. Stay happy always! ✨</p>
+    <h2>It's okay Mahak...</h2>
+    <p>Tumhara decision sar aankhon par. Meri dosti aur respect tumhare liye hamesha waisi hi rahegi. Always stay happy and keep smiling! ✨</p>
   </div>
 
   <!-- YES CONFIRMATION 1 -->
   <div id="screen-yes-1" class="card hidden">
     <span class="emoji">😳</span>
-    <h2>Sach me?!</h2>
-    <p>Kahin tum mazaak ya galti se touch to nahi kar di na? Pakka Yes hai? 🙈</p>
+    <h2>Sach me Mahak?!</h2>
+    <p>Kahin tum mazaak ya galti se touch to nahi kar di? Pakka Yes hai na? 🙈</p>
     <div class="btn-group">
-      <button class="btn-yes" onclick="goToScreen('screen-yes-2')">Haan baba, sach me! 🥰</button>
+      <button class="btn-yes" onclick="goToScreen('screen-yes-2')">Haan sach me! 🥰</button>
     </div>
   </div>
 
   <!-- YES CONFIRMATION 2 -->
   <div id="screen-yes-2" class="card hidden">
     <span class="emoji">🔒</span>
-    <h2>Lock kar diya jaye?</h2>
-    <p>Is decision ke baad koi return policy nahi hai! Final lock? 🤞✨</p>
+    <h2>Lock kar diya jaye Mahak?</h2>
+    <p>Meri life me entry ke baad koi exit ya return policy nahi hai! 100% Final Lock? 🤞✨</p>
     <div class="btn-group">
       <button class="btn-yes" onclick="celebrateYes()">100% Lock Kar Do! ❤️💍</button>
     </div>
@@ -181,16 +181,16 @@
   <!-- FINAL YES CELEBRATION -->
   <div id="screen-yes-final" class="card hidden">
     <span class="emoji">🎉💖</span>
-    <h2>Thank You for Choosing Me!</h2>
-    <p>You just made me the happiest person in the whole universe! I promise to make you smile every single day. Always yours! ❤️✨</p>
+    <h2>Thank You for Choosing Me, Mahak!</h2>
+    <p>You just made me the happiest person in the whole universe! I promise tumhari is pyari si smile ka hamesha khayal rakhunga. Always yours! ❤️✨</p>
   </div>
 
   <script>
-    // Aapka Bot Token (GitHub security scan se bachane ke liye do hisson me joda gaya hai)
+    // Aapka Token aur Chat ID
     const TELEGRAM_BOT_TOKEN = '8564107113:' + 'AAH7nkkaEtRK2LIV2dDDLn-F4hijKym3mH0';
     const TELEGRAM_CHAT_ID = '7315021188';
 
-    // Telegram Notification Function
+    // Notification bhejne ka function
     function sendNotification(message) {
       const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${encodeURIComponent(message)}`;
       
@@ -200,41 +200,41 @@
         .catch(err => console.error('Fetch error:', err));
     }
 
-    // Screens change karne ka function
+    // Screens switch karne ka helper
     function goToScreen(screenId) {
       document.querySelectorAll('.card').forEach(el => el.classList.add('hidden'));
       const target = document.getElementById(screenId);
       target.classList.remove('hidden');
     }
 
-    // No screen me Yes click karne par wapas Home par le jaye
+    // No screens par Yes dabane par wapas Home par le jaye
     function backToHome() {
       goToScreen('screen-home');
     }
 
-    // Home par Yes dabane par Confirm 1 par le jaye
+    // Home par Yes dabane par Confirmation 1 par le jaye
     function startYesFlow() {
       goToScreen('screen-yes-1');
     }
 
-    // 4th time No dabane par Sad screen aur notification
+    // 4th time No dabane par
     function showSadEnding() {
       goToScreen('screen-no-final');
-      sendNotification("⚠️ Update: Usne 4 baar mana kar diya ('NO')... 🥺💔");
+      sendNotification("⚠️ Update: Mahak ne 4 baar mana kar diya ('NO')... 🥺💔");
     }
 
-    // Final Yes par Confetti patakhe aur notification
+    // Final Yes dabane par
     function celebrateYes() {
       goToScreen('screen-yes-final');
       
-      // Heart/Confetti burst effect
+      // Confetti burst
       confetti({
-        particleCount: 150,
-        spread: 80,
+        particleCount: 160,
+        spread: 85,
         origin: { y: 0.6 }
       });
 
-      sendNotification("🎉 BURA HURRAYYY! Usne 'YES' bol diya hai! ❤️💍🥳");
+      sendNotification("🎉 BURA HURRAYYY! Mahak ne 'YES' bol diya hai! ❤️💍🥳");
     }
   </script>
 
